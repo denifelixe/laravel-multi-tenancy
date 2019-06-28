@@ -1,4 +1,4 @@
-<h1 align="center">Laravel Full Application for Multi-Tenancy Architecture with Repository Pattern</h1>
+<h1 align="center">Fresh Laravel Application for Multi-Tenancy Architecture with Repository Pattern</h1>
 
 ## About
 
