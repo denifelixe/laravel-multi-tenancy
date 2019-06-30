@@ -7,7 +7,7 @@ use App\Configurations\DatabaseConfiguration;
 use App\Repositories\Master\Tenants\TenantsInterface;
 use Illuminate\Console\Command;
 
-class TenantMigrations extends Command
+class TenantMigrationsCommand extends Command
 {
     /**
      * The name and signature of the console command.
