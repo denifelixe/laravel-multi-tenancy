@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "222decffa097b5607522733483950280",
+    "content-hash": "388274f42424f4df2b7a9971f891bfda",
     "packages": [
         {
             "name": "defuse/php-encryption",
@@ -68,6 +68,40 @@
                 "symmetric key cryptography"
             ],
             "time": "2018-07-24T23:27:56+00:00"
+        },
+        {
+            "name": "denifelixe/laravel-business-rule-validator",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/denifelixe/laravel-business-rule-validator.git",
+                "reference": "37302fa7dc3bac1ba5dcb25b8aaf7d67e8fe3f45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/denifelixe/laravel-business-rule-validator/zipball/37302fa7dc3bac1ba5dcb25b8aaf7d67e8fe3f45",
+                "reference": "37302fa7dc3bac1ba5dcb25b8aaf7d67e8fe3f45",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Denifelixe\\BusinessRuleValidator\\Providers\\BusinessRuleValidatorServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Denifelixe\\BusinessRuleValidator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Business Rule validator for Laravel",
+            "time": "2019-06-30T20:10:36+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
