@@ -71,16 +71,16 @@
         },
         {
             "name": "denifelixe/laravel-business-rule-validator",
-            "version": "1.1.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/denifelixe/laravel-business-rule-validator.git",
-                "reference": "40e119d987142f3a23bc01f82a495b5925e89433"
+                "reference": "b1877fad812437b8aa3f42021f1261b45320a367"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/denifelixe/laravel-business-rule-validator/zipball/40e119d987142f3a23bc01f82a495b5925e89433",
-                "reference": "40e119d987142f3a23bc01f82a495b5925e89433",
+                "url": "https://api.github.com/repos/denifelixe/laravel-business-rule-validator/zipball/b1877fad812437b8aa3f42021f1261b45320a367",
+                "reference": "b1877fad812437b8aa3f42021f1261b45320a367",
                 "shasum": ""
             },
             "require": {
@@ -102,7 +102,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Business Rule validator for Laravel",
-            "time": "2019-07-01T12:35:45+00:00"
+            "time": "2019-07-01T13:31:12+00:00"
         },
         {
             "name": "denifelixe/php-filesystem-handler",
