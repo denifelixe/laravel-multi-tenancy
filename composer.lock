@@ -106,16 +106,16 @@
         },
         {
             "name": "denifelixe/php-filesystem-handler",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/denifelixe/php-filesystem-handler.git",
-                "reference": "e509ffd90a018743bda05e58a86dd3dfb2525b54"
+                "reference": "0cd3585e5161c8c2d8bb7ed69737ca5bc835eea3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/denifelixe/php-filesystem-handler/zipball/e509ffd90a018743bda05e58a86dd3dfb2525b54",
-                "reference": "e509ffd90a018743bda05e58a86dd3dfb2525b54",
+                "url": "https://api.github.com/repos/denifelixe/php-filesystem-handler/zipball/0cd3585e5161c8c2d8bb7ed69737ca5bc835eea3",
+                "reference": "0cd3585e5161c8c2d8bb7ed69737ca5bc835eea3",
                 "shasum": ""
             },
             "require": {
@@ -129,7 +129,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "PHP Filesystem Handler",
-            "time": "2019-07-01T12:19:52+00:00"
+            "time": "2019-07-01T13:01:21+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
