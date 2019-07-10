@@ -1,10 +1,11 @@
 {
-    "name": "laravel/laravel",
+    "name": "denifelixe/laravel-multi-tenancy",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "The Laravel Multi-Tenancy Framework.",
     "keywords": [
         "framework",
-        "laravel"
+        "laravel",
+        "multi-tenancy"
     ],
     "license": "MIT",
     "require": {
