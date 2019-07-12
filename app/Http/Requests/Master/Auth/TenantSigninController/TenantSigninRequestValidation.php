@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Requests\Master\Auth\TenantSigninController;
+namespace App\Http\Requests\Master\Auth\TenantSignInController;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class TenantSigninRequestValidation extends FormRequest
+class TenantSignInRequestValidation extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.

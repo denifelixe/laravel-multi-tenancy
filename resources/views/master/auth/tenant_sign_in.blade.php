@@ -1,5 +1,5 @@
 @php
-    $views_path = 'views/master/auth/tenant_signin';
+    $views_path = 'views/master/auth/tenant_sign_in';
 @endphp
 
 @extends('master.layouts.app')
@@ -16,7 +16,7 @@
                     <div class="card-header">{{ __($views_path . '.sign_in_to_your_tenant') }}</div>
 
                     <div class="card-body">
-                        <form method="POST" action="{{ route('master.tenant.signin') }}">
+                        <form method="POST" action="{{ route('master.tenant.sign_in') }}">
                             @csrf
 
                             <p align="center"><b>{{ __($views_path . '.enter_your_tenant_url') }}</b></p>

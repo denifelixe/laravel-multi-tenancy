@@ -42,8 +42,8 @@ Route::namespace('Master')->group(function () {
 	
 	Route::get('/', 'Home\HomeController@index')->name('master.home');
 
-	Route::get('signin', 'Auth\TenantSigninController@showTenantSigninForm')->name('master.tenant.signin');
-	Route::post('signin', 'Auth\TenantSigninController@tenantSignin');
+	Route::get('signin', 'Auth\TenantSignInController@showTenantSignInForm')->name('master.tenant.sign_in');
+	Route::post('signin', 'Auth\TenantSignInController@tenantSignIn');
 
 	Route::get('register', 'Auth\TenantRegisterController@showTenantRegistrationForm')->name('master.tenant.register');
 	Route::post('register', 'Auth\TenantRegisterController@tenantRegister');

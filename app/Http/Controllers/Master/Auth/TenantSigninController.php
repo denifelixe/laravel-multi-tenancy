@@ -4,18 +4,18 @@ namespace App\Http\Controllers\Master\Auth;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Master\Auth\TenantSigninController\TenantSigninRequestValidation;
+use App\Http\Requests\Master\Auth\TenantSignInController\TenantSignInRequestValidation;
 
-class TenantSigninController extends Controller
+class TenantSignInController extends Controller
 {
     //
 
-    public function showTenantSigninForm()
+    public function showTenantSignInForm()
     {
-    	return view('master.auth.tenant_signin');
+    	return view('master.auth.tenant_sign_in');
     }
 
-    public function tenantSignin(TenantSigninRequestValidation $request)
+    public function tenantSignIn(TenantSignInRequestValidation $request)
     {
     	return redirect(env('APP_PROTOCOL') . $request->input('subdomain') . '.' . env('APP_ROOT_DOMAIN'));
     }
