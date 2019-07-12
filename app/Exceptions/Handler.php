@@ -49,18 +49,6 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {
-        if ($exception instanceof ReflectionException) {
-            abort(500);
-        }
-
-        if ($exception instanceof QueryException) {
-            abort(500);
-        }
-
-        if ($exception instanceof DecryptException) {
-            abort(500);
-        }
-
         return parent::render($request, $exception);
     }
 }
