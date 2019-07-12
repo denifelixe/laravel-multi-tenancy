@@ -72,7 +72,7 @@
 
             <div class="top-right links">
                 <a href="{{ route('master.tenant.register') }}">{{ __($views_path . '.create_tenant') }}</a>
-                <a href="{{ route('master.tenant.signin') }}">{{ __($views_path . '.your_tenant') }}</a>
+                <a href="{{ route('master.tenant.sign_in') }}">{{ __($views_path . '.your_tenant') }}</a>
             </div>
 
             <div class="content">
