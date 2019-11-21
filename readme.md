@@ -1,8 +1,8 @@
-<h1 align="center">Fresh Laravel Application for Multi-Tenancy Architecture with Repository Pattern</h1>
+<h1 align="center">SiAPP - Security in Application, Multi-Tenancy Architecture with Repository Pattern</h1>
 
 ## About
 
-This project use <a href="https://laravel.com">Laravel</a> as a based framework. It built to anyone who plan to build multi-tenancy architecture with repository pattern. If you weren't familiar with repository pattern, I suggest you to learn it before you jump to this project. One of the best learning resource is already in <a href="https://laracasts.com">laracasts.com</a>.
+This project use <a href="https://laravel.com">Laravel</a> as a based framework. If you weren't familiar with repository pattern, I suggest you to learn it before you jump to this project. One of the best learning resource is already in <a href="https://laracasts.com">laracasts.com</a>.
 
 ## Why Laravel
 
